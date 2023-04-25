@@ -8,7 +8,7 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #2a4805   ;
   --secondary-color: #2926e4 ;
-  --accent1-color: #f0e80c;
+  --accent1-color: #fff5f5;
   --accent2-color: #39A0ED;
 
   /* change the values below to your chosen font(s) */
@@ -24,7 +24,7 @@ Fonts are separated by a & */
   --nav-link-color: #2926e4;
   --nav-background-color: #f0e80c;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #2926e4;
 }
 
 /* https://arikuhl1999.github.io/wdd130/wwr/site-plan-rafting.html */
