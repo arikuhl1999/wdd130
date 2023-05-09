@@ -1,0 +1,28 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 100px 50px 30px;
+    margin: 50px
+}
+
+h1 {
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+img {
+    width: 80%
+    display: block;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 1.5em;
+    margin: 20px auto;
+    text-align: center;
+}
+
