@@ -5,6 +5,7 @@
 
 .logo{
     width: 80px;
+    margin-right: auto;
 }
 
 nav a{
@@ -36,6 +37,7 @@ img{
 
 .icon{
     width: 80px;
+    margin-right: auto;
 }
 
 main section{
@@ -80,6 +82,7 @@ h4{
 .join{
     background-color: #386106;
     color: #ffffff;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -97,11 +100,13 @@ h4{
 .msg h2{
     background-color: #ffffff;
     color: #2926e4;
+    text-align: center;
 }
 
 .msg p{
     background-color: #ffffff;
     color: #2926e4;
+    text-align: center;
 }
 
 footer{ 
