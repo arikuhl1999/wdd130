@@ -41,15 +41,15 @@ nav a:hover{
 }
 
 .book{
-    background-color: #39A0ED;
+    background-color: #ffffff;
 }
 
 .join{
-    background-color: #ffffff;
+    background-color: yellowgreen;
 }
 
 .book:hover{
-    background-color: #ffffff;
+    background-color: yellow;
 }
 
 .join:hover{
@@ -57,9 +57,9 @@ nav a:hover{
 }
 
 .msg{
-    background-color: #386106;
+    background-color: #ffffff;
 }
 
 footer{ 
-    background-color: ;
+    background-color: yellowgreen;
 }
