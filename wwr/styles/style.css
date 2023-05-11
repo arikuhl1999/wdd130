@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+h2 {
+    text-align: center;
+}
+
 .logo{
     width: 80px;
     display: inline;
@@ -18,21 +22,14 @@ nav a{
 img{
     display: block;
     margin: auto;
+    width: 40%;
 }
 
 #hero-img{
     width: 100%;
 }
 
-#camping{
-    text-align: center;
-}
-
-#hero-msg h1{
-    text-align: center;
-}
-
-#hero-msg h4{
+#hero-msg h1, #hero-msg h4{
     text-align: center;
 }
 
@@ -117,6 +114,8 @@ h4{
 footer{ 
     background-color: yellowgreen;
     color: #2926e4;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer p{
@@ -134,4 +133,10 @@ footer a{
 
 footer a:hover{
     color: #ffffff;
+}
+
+footer img{
+    display: block;
+    margin: auto;
+    width: 40%;
 }
