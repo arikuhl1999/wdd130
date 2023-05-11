@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.logo{
+    width: 80px;
+}
+
 nav a{
     text-align: center;
 }
@@ -30,36 +34,66 @@ main section{
 
 body{
     background-color: #39A0ED;
+    color: black;
 }
 
 header{
     background-color: #ffffff;
+    color: #386106;
 }
 
 nav a:hover{
     background-color: #386106;
+    color: yellow;
+}
+
+.home-title{
+    color: #ffffff;
+}
+
+h4{
+    color: #ffffff;
 }
 
 .book{
     background-color: #ffffff;
+    color: #386106;
 }
 
 .join{
-    background-color: yellowgreen;
+    background-color: #386106;
+    color: #ffffff;
 }
 
 .book:hover{
     background-color: yellow;
+    color: #386106;
 }
 
 .join:hover{
     background-color: burlywood;
+    color: #386106;
 }
 
-.msg{
+.msg h2{
     background-color: #ffffff;
+    color: #2926e4;
+}
+
+.msg p{
+    background-color: #ffffff;
+    color: #2926e4;
 }
 
 footer{ 
     background-color: yellowgreen;
+    color: #2926e4;
+}
+
+footer a{
+    color: #2926e4;
+}
+
+footer a:hover{
+    color: #ffffff;
 }
