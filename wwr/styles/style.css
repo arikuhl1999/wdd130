@@ -9,6 +9,12 @@
 
 nav a{
     text-align: center;
+    color: #2926e4;
+    text-decoration: none;
+}
+
+#hero-img{
+    width: 100%;
 }
 
 #hero-msg h1{
@@ -21,6 +27,10 @@ nav a{
 
 .button-box{
     text-align: center;
+}
+
+.icon{
+    width: 80px;
 }
 
 main section{
@@ -45,6 +55,7 @@ header{
 nav a:hover{
     background-color: #386106;
     color: yellow;
+    text-decoration: underline;
 }
 
 .home-title{
@@ -56,18 +67,21 @@ h4{
 }
 
 .book{
-    background-color: #ffffff;
-    color: #386106;
+    background-color: #2926e4;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .join{
     background-color: #386106;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .book:hover{
     background-color: yellow;
     color: #386106;
+    text-decoration: underline;
 }
 
 .join:hover{
@@ -90,8 +104,17 @@ footer{
     color: #2926e4;
 }
 
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
 footer a{
     color: #2926e4;
+    text-decoration: none;
 }
 
 footer a:hover{
