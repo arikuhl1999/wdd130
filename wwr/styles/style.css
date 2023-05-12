@@ -50,7 +50,7 @@ main section{
     text-align: center;
 }
 
-main section img .mountains{
+main section .mountains{
     margin: 0%;
     display: block;
     text-align: left;
