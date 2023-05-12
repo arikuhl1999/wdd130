@@ -25,6 +25,10 @@ img{
     width: 40%;
 }
 
+section img{
+    display: inline;
+}
+
 #hero-img{
     width: 100%;
 }
@@ -44,6 +48,10 @@ img{
 
 main section{
     text-align: center;
+}
+
+.mountains{
+    margin: 0%;
 }
 
 #background{
@@ -114,8 +122,6 @@ h4{
 footer{ 
     background-color: yellowgreen;
     color: #2926e4;
-    display: flex;
-    justify-content: space-around;
 }
 
 footer p{
@@ -136,7 +142,7 @@ footer a:hover{
 }
 
 footer img{
-    display: block;
+    display: inline;
     margin: auto;
-    width: 40%;
+    width: 50px;
 }
