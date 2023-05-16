@@ -5,8 +5,22 @@ nav, footer {
     margin: 50px
 }
 
+nav, a{
+    padding: 25px;
+    color: #ffffff;
+}
+
+a:visited{
+    color:aquamarine
+}
+
+body{
+    margin: 0;
+}
+
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
 nav a:hover {
@@ -15,7 +29,8 @@ nav a:hover {
 }
 
 img {
-    width: 80%
+    width: 80%;
+    border: 4px solid steelblue;
     display: block;
     margin: 0 auto;
 }
@@ -24,5 +39,6 @@ footer p {
     font-size: 1.5em;
     margin: 20px auto;
     text-align: center;
+    padding: 25px
 }
 
