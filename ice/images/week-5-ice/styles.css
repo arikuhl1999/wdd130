@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-size: 0;
+}
+.title {
+    width: 100%;
+}
+
+#small img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+}
+
+#small{
+    background-color: #737373;
+    text-align: center;
+    padding: 5%;
+}
+
+.middle{
+    margin: 0px 15px;
+}
+div{
+    width: 100%;
+}
