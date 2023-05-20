@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Roboto+Mono:wght@100&display=swap');
+
+:root{
+    --heading-font: "Raleway";
+    --paragraph-font: 'Raleway', monospace;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +12,7 @@
 
 h2 {
     text-align: center;
+    margin: 0;
 }
 
 .logo{
@@ -13,10 +21,15 @@ h2 {
     margin-right: auto;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 nav a{
     text-align: center;
     color: #2926e4;
     text-decoration: none;
+    padding: 35px;
 }
 
 img{
@@ -44,10 +57,23 @@ section img{
 .icon{
     width: 80px;
     margin-right: auto;
+    padding-top: 10px;
 }
 
 main section{
     text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.card-img{
+    border: 10px solid #ffffff;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 
 main section .mountains{
@@ -64,6 +90,10 @@ main section .mountains{
 body{
     background-color: #39A0ED;
     color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header{
@@ -79,6 +109,9 @@ nav a:hover{
 
 .home-title{
     color: #ffffff;
+    font-family: "Raleway", monospace;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -89,6 +122,10 @@ h4{
     background-color: #2926e4;
     color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
@@ -96,6 +133,10 @@ h4{
     color: #ffffff;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -109,21 +150,32 @@ h4{
     color: #386106;
 }
 
+.msg{
+    background-color: #ffffff;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
 .msg h2{
     background-color: #ffffff;
     color: #2926e4;
     text-align: center;
+    font-family: "Raleway", monospace;
 }
 
 .msg p{
     background-color: #ffffff;
     color: #2926e4;
     text-align: center;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{ 
     background-color: yellowgreen;
     color: #2926e4;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -147,4 +199,5 @@ footer img{
     display: inline;
     margin: auto;
     width: 50px;
+    padding-top: 15px;
 }
