@@ -19,6 +19,7 @@ h1{
     grid-row: 1;
     font-size: 12em;
     text-align: center;
+    letter-spacing: 0.2em;
 }
 
 h2{
@@ -27,4 +28,5 @@ h2{
     font-size: 7em;
     text-align: center;
     color: darkred;
+    letter-spacing: 0.2em;
 }
