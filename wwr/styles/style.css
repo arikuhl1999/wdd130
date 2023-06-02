@@ -15,14 +15,16 @@ h2 {
     margin: 0;
 }
 
-.logo{
-    width: 80px;
-    display: inline;
-    margin-right: auto;
+header{
+    background-color: #ffffff;
+    color: #386106;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
-#logo_link{
-    padding-top: 5px;
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a{
@@ -32,18 +34,44 @@ nav a{
     padding: 35px;
 }
 
-img{
-    display: block;
-    margin: auto;
-    width: 40%;
+nav a:hover{
+    background-color: #386106;
+    color: yellow;
+    text-decoration: underline;
 }
 
-section img{
+.logo{
+    width: 80px;
     display: inline;
+    margin-right: auto;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-content: center;
+    align-self: center;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
 }
 
 #hero-img{
     width: 100%;
+}
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -54,14 +82,29 @@ section img{
     text-align: center;
 }
 
+section img{
+    display: inline;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+main section{
+    text-align: center;
+}
+
 .icon{
     width: 80px;
     margin-right: auto;
     padding-top: 10px;
 }
 
-main section{
-    text-align: center;
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 main section img{
@@ -70,10 +113,33 @@ main section img{
 
 .card-img{
     border: 10px solid #ffffff;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+}
+
+.rivers-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 
 main section .mountains{
@@ -82,9 +148,18 @@ main section .mountains{
     text-align: left;
 }
 
+.mountains{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 #background{
     height: 725px;
     background-color: #ffffff;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 body{
@@ -94,17 +169,6 @@ body{
     font-size: 22px;
     padding: 0;
     margin: 0;
-}
-
-header{
-    background-color: #ffffff;
-    color: #386106;
-}
-
-nav a:hover{
-    background-color: #386106;
-    color: yellow;
-    text-decoration: underline;
 }
 
 .home-title{
@@ -154,6 +218,9 @@ h4{
     background-color: #ffffff;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .msg h2{
@@ -176,6 +243,9 @@ footer{
     color: #2926e4;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer p{
@@ -200,4 +270,46 @@ footer img{
     margin: auto;
     width: 50px;
     padding-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
