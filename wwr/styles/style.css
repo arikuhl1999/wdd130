@@ -148,7 +148,7 @@ main section .mountains{
     text-align: left;
 }
 
-.mountains{
+.mountains-card{
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
