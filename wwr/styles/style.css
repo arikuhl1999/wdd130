@@ -16,7 +16,7 @@ h2 {
 }
 
 header{
-    background-color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
     color: #386106;
     display: grid;
     grid-template-columns: 150px auto;
@@ -29,7 +29,7 @@ nav{
 
 nav a{
     text-align: center;
-    color: #2926e4;
+    color: #fcfcfc;
     text-decoration: none;
     padding: 35px;
 }
@@ -112,7 +112,7 @@ main section img{
 }
 
 .card-img{
-    border: 10px solid #ffffff;
+    border: 10px solid tan;
     width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -146,15 +146,17 @@ main section .mountains{
     margin: 100px 0;
     display: block;
     text-align: left;
-    width: 800px;
+    width: 700px;
 }
 
 .mountains-card{
-    width: 100%;
-    grid-column: 2/7;
+    /* width: 100%; */
+    grid-column: 1/11;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
-    padding: 0% 60% 0% 10%;
+    /* padding: 0% 53.5% 0% 10%; */
+    padding-left: 5%;
+    background-color: tan;
 }
 
 #background{
@@ -165,7 +167,7 @@ main section .mountains{
 }
 
 body{
-    background-color: #39A0ED;
+    background-color: #fcfcfc;
     color: black;
     font-family: "Raleway", sans-serif;
     font-size: 22px;
@@ -238,6 +240,7 @@ h4{
     text-align: center;
     font-size: .8em;
     padding-bottom: 15px;
+    line-height: 1.5em;
 }
 
 footer{ 
