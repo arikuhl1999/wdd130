@@ -18,6 +18,18 @@ body{
     text-align: center;
 }
 
+/* .posting{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h4{
+    grid-row: 2/3;
+    background-color: antiquewhite;
+} */
+
 footer{
     background-color: #465b8b;
     height: 100px;
