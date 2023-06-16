@@ -142,7 +142,7 @@ main section img{
     grid-row: 2/3;
 }
 
-main section .mountains{
+.mountains{
     margin: 100px 0;
     display: block;
     text-align: left;
