@@ -59,7 +59,7 @@ nav a:hover{
 
 #hero{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
     margin-top: -100px;
 }
 
@@ -84,8 +84,84 @@ nav a:hover{
     background-color: rgba(0,0,0,0.5);
 }
 
-h4{
+h1{
+    text-align: center;
+}
 
+.Idaho{
+    text-align: right;
+}
+
+img{
+    grid-template-columns: 1fr 1fr 1fr;
+     
+}
+
+.Salmon-river{
+    width: 100%;
+}
+main img{
+    width: 100%;
+}
+.salmon-paragraph{
+    text-align: right;
+    /* padding-right: 5px 5px 5px 5px; */
+}
+
+.Utah{
+    text-align: right;
+}
+
+.grand-paragraph{
+    font-size: 1em;
+    text-align: right;
+}
+
+footer{ 
+    background-color: yellowgreen;
+    color: #2926e4;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: #2926e4;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #ffffff;
+}
+
+footer img{
+    display: inline;
+    margin: auto;
+    width: 50px;
+    padding-top: 15px;
+}
+
+#page2grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+#page2text{
+    line-height: 59px;
+
+}
+#page2text h2{
+    text-align: center;
 }
 
 
@@ -106,8 +182,17 @@ h4{
     }
     #hero-msg {
         margin-top: 0;
+
     }
     #hero-msg h4 {
         display: none;
+    }
+
+    
+    /* img{
+        display: none;
+    } */
+    footer {
+        margin-top: 25px;
     }
 }
