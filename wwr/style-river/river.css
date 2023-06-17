@@ -151,16 +151,16 @@ footer img{
     padding-top: 15px;
 }
 
-#page2grid{
+#rivergrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
-#page2text{
+#rivertext{
     line-height: 59px;
 
 }
-#page2text h2{
+#rivertext h2{
     text-align: center;
 }
 
@@ -188,7 +188,6 @@ footer img{
         display: none;
     }
 
-    
     /* img{
         display: none;
     } */
