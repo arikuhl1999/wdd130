@@ -76,7 +76,10 @@ nav a:hover{
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 125px;
+    margin-top: -125px;
+    position: absolute;
+    top: 50%;
+    left: 23.5%;
     border-radius: 25px;
     padding: 5%;
     text-align: center;
@@ -100,9 +103,12 @@ img{
 .Salmon-river{
     width: 100%;
 }
+
 main img{
     width: 100%;
+    /* display: none; */
 }
+
 .salmon-paragraph{
     text-align: right;
     /* padding-right: 5px 5px 5px 5px; */
@@ -120,7 +126,7 @@ main img{
 footer{ 
     background-color: yellowgreen;
     color: #2926e4;
-    padding: 25px 50px;
+    padding: 55px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
@@ -170,6 +176,9 @@ footer img{
         display: block;
         height: auto;
     }
+    /* div{
+        display: none;
+    } */
     nav, footer {
         flex-direction: column;
     }
@@ -179,18 +188,35 @@ footer img{
     }
     #hero {
         margin-top: 0;
+        text-align: center;
     }
     #hero-msg {
-        margin-top: 0;
-
+        margin-top: 10;
+        text-align: center;
+        width: 50%;
+        /* text-align: center; */
+        /* height: 50%; */
+        /* position: relative;
+        top: 100%;
+        left: 100%; */
+    }
+    #images{
+        display: none;
+    }
+    #rivergrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    #rivertext h2{
+        text-align: center;
     }
     #hero-msg h4 {
         display: none;
     }
-
-    /* img{
+    main img{
         display: none;
-    } */
+    }
     footer {
         margin-top: 25px;
     }
