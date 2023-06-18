@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Roboto+Mono:wght@100&display=swap');
+
+:root{
+    --heading-font: "Raleway";
+    --paragraph-font: 'Raleway', monospace;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #fcfcfc;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 80px;
+    display: inline;
+    margin-right: auto;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-content: center;
+    align-self: center;
+}
+
+header{
+    background-color: rgba(0,0,0,0.5);
+    color: #386106;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a{
+    text-align: center;
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #386106;
+    color: yellow;
+    text-decoration: underline;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: -125px;
+    position: absolute;
+    top: 50%;
+    left: 23.5%;
+    border-radius: 25px;
+    padding: 5%;
+    text-align: center;
+    color: #fcfcfc;
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+}
+
+.Idaho{
+    text-align: right;
+}
+
+img{
+    grid-template-columns: 1fr 1fr 1fr;
+     
+}
+
+.Salmon-river{
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.Canyon-river{
+    padding-bottom: 5%;
+}
+
+.canyon-paragraph{
+    padding-bottom: 25%;
+}
+
+main img{
+    width: 100%;
+    /* display: none; */
+}
+
+.salmon-paragraph{
+    text-align: right;
+    padding-bottom: 5%;
+    /* grid-row: 1/1; */
+    /* padding-right: 5px 5px 5px 5px; */
+}
+
+.Utah{
+    text-align: right;
+}
+
+.grand-paragraph{
+    font-size: 1em;
+    text-align: right;
+}
+
+footer{ 
+    background-color: yellowgreen;
+    color: #2926e4;
+    padding: 55px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: #2926e4;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #ffffff;
+}
+
+footer img{
+    display: inline;
+    margin: auto;
+    width: 50px;
+    padding-top: 15px;
+}
+
+#rivergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-gap: 10px;
+}
+#rivertext{
+    line-height: 30px;
+
+}
+#rivertext h2{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    /* div{
+        display: none;
+    } */
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+        text-align: center;
+    }
+    #hero-msg {
+        margin-top: 10;
+        text-align: center;
+        width: 50%;
+        /* text-align: center; */
+        /* height: 50%; */
+        /* position: relative;
+        top: 100%;
+        left: 100%; */
+    }
+    #images{
+        display: none;
+    }
+    .canyon-paragraph{
+        padding-bottom: 0%;
+    }
+    .salmon-paragraph{
+        padding-bottom: 0%;
+    }
+    #rivergrid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #rivertext h2{
+        text-align: center;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    main img{
+        display: none;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
